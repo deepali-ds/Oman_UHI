@@ -1,6 +1,6 @@
 # Wetness-Driven Urban Cooling: A Data-Driven Framework for Heat Mitigation and Aquifer Recharge in Arid Cities
 
-Rapid urbanization in arid regions such as Oman intensifies both water scarcity and Urban Heat Island (UHI) effects, necessitating integrated strategies for thermal mitigation and hydrological resilience. This study presents a data-driven Digital Twin framework to quantify the cooling potential of Nature-based Solutions (NbS), with a particular focus on surface wetness as the primary driver of urban microclimates.
+Rapid urbanization in arid regions such as Oman intensifies both water scarcity and Urban Heat Island (UHI) effects, necessitating integrated strategies for thermal mitigation and hydrological resilience. This study presents a data-driven framework to quantify the cooling potential of Nature-based Solutions (NbS), with a particular focus on surface wetness as the primary driver of urban microclimates.
 
 Satellite-derived indicators, including Land Surface Temperature (LST), Normalized Difference Water Index (NDWI), Normalized Difference Vegetation Index (NDVI), and Normalized Difference Built-up Index (NDBI), were extracted in Google Earth Engine from Landsat 8 imagery and combined with climate variables from ERA5 datasets. Features were aggregated spatially using a hexagonal grid and temporally at monthly resolution. A machine learning model (XGBoost) was trained using a spatially stratified train–test split to ensure generalization across regions, achieving an RMSE of approximately 1.9°C.
 
