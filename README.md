@@ -1,1 +1,11 @@
-# Oman_UHI
+# Wetness-Driven Urban Cooling: A Data-Driven Framework for Heat Mitigation and Aquifer Recharge in Arid Cities
+
+Rapid urbanization in arid regions such as Oman intensifies both water scarcity and Urban Heat Island (UHI) effects, necessitating integrated strategies for thermal mitigation and hydrological resilience. This study presents a data-driven Digital Twin framework to quantify the cooling potential of Nature-based Solutions (NbS), with a particular focus on surface wetness as the primary driver of urban microclimates.
+
+Satellite-derived indicators, including Land Surface Temperature (LST), Normalized Difference Water Index (NDWI), Normalized Difference Vegetation Index (NDVI), and Normalized Difference Built-up Index (NDBI), were extracted in Google Earth Engine from Landsat 8 imagery and combined with climate variables from ERA5 datasets. Features were aggregated spatially using a hexagonal grid and temporally at monthly resolution. A machine learning model (XGBoost) was trained using a spatially stratified train–test split to ensure generalization across regions, achieving an RMSE of approximately 1.9°C.
+
+Model interpretation using SHAP analysis indicates that surface wetness (NDWI) is the most influential predictor of LST, surpassing vegetation and built-up effects. Scenario-based simulations were conducted by applying data-driven interventions that increase wetness and vegetation while reducing built-up intensity in thermally stressed and hydrologically suitable zones. Results show a mean cooling effect of approximately 2.1°C across the study area, with localized reductions exceeding 7–10°C in hotspot regions. A response curve analysis reveals diminishing returns beyond moderate wetness increases, enabling identification of optimal intervention levels.
+
+An ensemble modeling approach was used to quantify uncertainty, highlighting regions where predictions are less reliable. By integrating cooling potential, managed aquifer recharge (MAR) suitability, and prediction uncertainty, the framework produces actionable priority maps for urban planning.
+
+The results demonstrate that wetness-driven interventions offer a scalable and effective strategy for mitigating urban heat in arid environments, and that EO-based Digital Twins can support evidence-based decision-making for climate-resilient cities.
